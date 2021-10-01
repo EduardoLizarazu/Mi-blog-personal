@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 
-body {
+a {
+    text-decoration: none;
+    display: inline; /* para que pueda ponerse de forma horizontal */
+    color: #000;
+}
+.home-bady {
     font-family: "Roboto", monospace;
     margin: 0;
     padding: 0;
@@ -9,12 +14,6 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-a {
-    text-decoration: none;
-    display: inline; /* para que pueda ponerse de forma horizontal */
-    color: #000;
 }
 header {
     width: 100%;
@@ -113,6 +112,8 @@ nav .profile-link a {
 .blogs-main {
     display: grid;
 }
+
+/* SECCION 1 */
 .blogs-news-container {
     background-color: #e6e9ed;
     padding: 0 50px 40px;
@@ -126,11 +127,33 @@ nav .profile-link a {
     grid-column: 1;
 }
 .blogs-news-img-container img {
-    
+    width: 85%;
 }
 .blogs-news-info-container{
     grid-column: 2;
 }
 .blogs-news-info-container p {
     margin-bottom: 35px;
+}
+
+/* boton generico */
+.blogs-button {
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.blogs-button:hover {
+    border: 1px solid #fff;
+    background-color: #47cfac;
+    color:#fff;
+}
+
+/* SECCION 2 */
+.blogs-posts-container{
+    padding: 0 50px 40px;
+}
+.blogs-posts-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
 }
