@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
-
-a {
-    text-decoration: none;
-    display: inline; /* para que pueda ponerse de forma horizontal */
-    color: #000;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .home-bady {
     font-family: "Roboto", monospace;
@@ -15,6 +14,12 @@ a {
     left: 0;
     right: 0;
 }
+a {
+    text-decoration: none;
+    display: inline; /* para que pueda ponerse de forma horizontal */
+    color: #000;
+}
+
 header {
     width: 100%;
     height: 140px;
@@ -157,3 +162,31 @@ nav .profile-link a {
     padding-bottom: 20px;
     text-align: center;
 }
+
+/* contenedores de los articulos */
+.blogs-posts-container .post-container{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+.blogs-posts-container .post-container p {
+    margin-bottom: 35px;
+}
+.blogs-posts-container .post-container img {
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac;
+    text-align: center;
+}
+footer p {
+    color: #fff;
+    margin-top: 20px;
+}
+
