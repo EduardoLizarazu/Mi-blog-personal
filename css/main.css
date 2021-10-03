@@ -15,7 +15,7 @@ a {
     display: inline; /* para que pueda ponerse de forma horizontal */
     color: #000;
 }
-.home-bady {
+.home-body {
     position: fixed;
     top: 0;
     bottom: 0;
