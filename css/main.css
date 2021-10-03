@@ -5,22 +5,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-.home-bady {
-    font-family: "Roboto", monospace;
+body {
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 a {
     text-decoration: none;
     display: inline; /* para que pueda ponerse de forma horizontal */
     color: #000;
 }
-
+.home-bady {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 .grid-container{
     max-width: 980px;
     margin: auto;
