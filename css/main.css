@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 /* SECCION GLOBAL*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
@@ -194,6 +189,6 @@ footer {
 }
 footer p {
     color: #fff;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
