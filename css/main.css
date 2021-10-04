@@ -225,20 +225,12 @@ footer p {
 .contact-main-container img {
     width: 100px;
 }
-.contact-left {
+.contact {
     display: grid;
     grid-template-columns: 120px 320px;
     grid-template-rows: 1fr;
 }
-.contact-left div {
+.contact div {
     margin-top: 20px;
 }
 
-.contact-right {
-    display: grid;
-    grid-template-columns: 120px 320px;
-    grid-template-rows: 1fr;
-}
-.contact-right div {
-    margin-top: 20px;
-}
