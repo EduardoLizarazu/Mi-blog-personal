@@ -211,3 +211,29 @@ footer p {
 .blogpost-main-container section h1 {
     font-size: 35px;
 }
+/* CONTACT PART */
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-main-container div {
+    display: inline-block;
+    /* para poderlo dividir */
+    width: 49.5%;
+    /* el height de la dimencion de su padre */
+    height: 100%;
+}
+.contact-main-container div a {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+.contact-main-container img {
+    width: 100px;
+}
