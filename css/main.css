@@ -211,3 +211,16 @@ footer p {
 .blogpost-main-container section h1 {
     font-size: 35px;
 }
+/* CONTACT PART */
+.contact-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #e6e9ed;
+}
+.contact-main-container img {
+    width: 100px;
+}
+.contact-main-container .contact-left {
+
+}
