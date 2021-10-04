@@ -206,4 +206,8 @@ footer p {
 }
 .blogpost-main-container h3 {
     border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+.blogpost-main-container section h1 {
+    font-size: 35px;
 }
