@@ -221,6 +221,9 @@ footer p {
 .contact-main-container img {
     width: 100px;
 }
-.contact-main-container .contact-left {
-
+.contact-left {
+    padding: 30px;
+}
+.contact-right {
+    padding: 30px;
 }
