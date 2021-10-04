@@ -213,27 +213,28 @@ footer p {
 }
 /* CONTACT PART */
 .contact-main-container {
-    width: 100%;
-    min-height: 250px;
     background-color: #e6e9ed;
-    text-align: center;
-    padding-bottom: 50px;
-}
-.contact-main-container div {
-    display: inline-block;
-    /* para poderlo dividir */
-    width: 49.5%;
-    /* el height de la dimencion de su padre */
-    height: 100%;
-}
-.contact-main-container div a {
-    border-bottom: 1px solid #000;
-    padding-bottom: 5px;
-}
-.contact-main-container .contact-left, .contact-right {
-    text-align: initial;
-    margin-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    height: 300px;
 }
 .contact-main-container img {
     width: 100px;
 }
+.contact {
+    display: grid;
+    grid-template-columns: 120px 320px;
+    grid-template-rows: 1fr;
+}
+.contact div {
+    margin-top: 20px;
+}
+.contact a {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+}
+
