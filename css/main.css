@@ -233,4 +233,8 @@ footer p {
 .contact div {
     margin-top: 20px;
 }
+.contact a {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+}
 
