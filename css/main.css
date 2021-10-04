@@ -213,17 +213,32 @@ footer p {
 }
 /* CONTACT PART */
 .contact-main-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     background-color: #e6e9ed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    height: 300px;
 }
 .contact-main-container img {
     width: 100px;
 }
 .contact-left {
-    padding: 30px;
+    display: grid;
+    grid-template-columns: 120px 320px;
+    grid-template-rows: 1fr;
 }
+.contact-left div {
+    margin-top: 20px;
+}
+
 .contact-right {
-    padding: 30px;
+    display: grid;
+    grid-template-columns: 120px 320px;
+    grid-template-rows: 1fr;
+}
+.contact-right div {
+    margin-top: 20px;
 }
