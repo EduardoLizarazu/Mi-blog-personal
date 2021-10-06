@@ -55,4 +55,13 @@
         /* le dejo el 40 porque separa del otra secction, es decir otro tema */
         padding: 0 25px 40px;
     }
+    /* CONTACT */
+    .contact {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        justify-items: center;
+    }
+    .contact div {
+        text-align: center;
+    }
 }

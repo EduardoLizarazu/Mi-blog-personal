@@ -220,7 +220,7 @@ footer p {
     align-items: center;
     justify-content: space-around;
     align-content: center;
-    height: 300px;
+    min-height: 300px;
 }
 .contact-main-container img {
     width: 100px;
