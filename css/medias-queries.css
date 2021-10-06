@@ -32,5 +32,6 @@
     /* HEADER SECTION */
     header .header-icons-container .icons {
         justify-self: center;
+        margin-right: 0;
     }
 }
