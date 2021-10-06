@@ -37,4 +37,7 @@
     nav .profile-link {
         margin-right: 20px;
     }
+    nav .nav-logo-container {
+        margin-left: 0;
+    }
 }
