@@ -64,4 +64,18 @@
     .contact div {
         text-align: center;
     }
+    /* PERFIL MAIN */
+    .profile-main-container img {
+        width: 215px;
+        margin-left: 15px;
+    }
+    .profile-main-container {
+        padding: 70px 30px;
+    }
+    .profile-main-proyects {
+        padding: 0 30px 40px;
+    }
+    .proyects-main-container {
+        grid-template-columns: 1fr;
+    }
 }
