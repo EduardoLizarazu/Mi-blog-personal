@@ -27,3 +27,10 @@
         max-width: 95%;
     }
 }
+
+@media (max-width: 320px){
+    /* HEADER SECTION */
+    header .header-icons-container .icons {
+        justify-self: center;
+    }
+}
