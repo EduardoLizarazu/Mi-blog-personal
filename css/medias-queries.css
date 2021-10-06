@@ -40,4 +40,11 @@
     nav .nav-logo-container {
         margin-left: 0;
     }
+    /* FOOTER */
+    footer {
+        height: 100px;
+    }
+    footer p {
+        margin-top: 15px;
+    }
 }
